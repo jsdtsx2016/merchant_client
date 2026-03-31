@@ -1,0 +1,18 @@
+{
+  "code": 200,
+  "data": {
+    "用户列表": ["add", "batchAdd", "edit", "batchDelete", "lock"],
+    "游戏列表": ["add", "batchAdd", "edit", "batchDelete", "lock"],
+    "游戏类型": ["add", "batchAdd", "edit", "batchDelete", "lock"],
+    "账号列表": ["add", "batchAdd", "edit", "batchDelete", "lock"],
+    "活动管理": ["add", "batchAdd", "edit", "batchDelete", "lock"],
+    "系统弹窗": ["add", "batchAdd", "edit", "batchDelete", "lock"],
+    "系统公告": ["add", "batchAdd", "edit", "batchDelete", "lock"],
+    "进程管理": ["add", "batchAdd", "edit", "batchDelete", "lock"],
+    "系统邮件": ["add", "batchAdd", "edit", "batchDelete", "lock"],
+    "文本管理": ["add", "batchAdd", "edit", "batchDelete", "lock"],
+    "角色管理": ["add", "batchAdd", "edit", "batchDelete", "lock"],
+    "配置管理": ["add", "batchAdd", "edit", "batchDelete", "lock"]
+  },
+  "msg": "成功"
+}

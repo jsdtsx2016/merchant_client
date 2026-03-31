@@ -1,0 +1,11 @@
+import avatar1 from "@/assets/images/avatar1.gif";
+import avatar2 from "@/assets/images/avatar2.gif";
+import avatar3 from "@/assets/images/avatar3.gif";
+import avatar4 from "@/assets/images/avatar4.gif";
+import avatar5 from "@/assets/images/avatar5.gif";
+import avatar6 from "@/assets/images/avatar6.gif";
+import avatar7 from "@/assets/images/avatar7.gif";
+import avatar8 from "@/assets/images/avatar8.gif";
+import avatar9 from "@/assets/images/avatar9.gif";
+import { ref } from "vue";
+export const avatarList = ref([avatar1, avatar2, avatar3, avatar4, avatar5, avatar6, avatar7, avatar8, avatar9]);

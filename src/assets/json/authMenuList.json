@@ -1,0 +1,134 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "path": "/home/index",
+      "name": "首页",
+      "component": "/home/index",
+      "meta": {
+        "icon": "HomeFilled",
+        "title": "首页",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": true,
+        "isKeepAlive": false
+      }
+    },
+    {
+      "path": "/baseInfo/baseInfo",
+      "name": "基本信息",
+      "component": "/baseInfo/BaseInfo",
+      "meta": {
+        "icon": "UserFilled",
+        "title": "基本信息",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/childAccount",
+      "name": "员工账号",
+      "component": "/childAccount/ChildAccount",
+      "meta": {
+        "icon": "UserFilled",
+        "title": "员工账号",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/product/productList",
+      "name": "产品列表",
+      "component": "/product/ProductList",
+      "meta": {
+        "icon": "ShoppingBag",
+        "title": "产品列表",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    },
+    {
+      "path": "/order",
+      "name": "订单管理",
+      "redirect": "/order/payinOrderList",
+      "meta": {
+        "icon": "Tickets",
+        "title": "订单管理",
+        "isLink": "",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      },
+      "children": [
+        {
+          "path": "/order/payinOrderList",
+          "name": "充值记录",
+          "component": "/order/PayinOrderList",
+          "meta": {
+            "icon": "Menu",
+            "title": "充值记录",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/order/VoucherList",
+          "name": "结算记录",
+          "component": "/order/VoucherList",
+          "meta": {
+            "icon": "Menu",
+            "title": "结算记录",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        },
+        {
+          "path": "/order/payinStatistics",
+          "name": "充值统计",
+          "component": "/order/PayinStatistics",
+          "meta": {
+            "icon": "Menu",
+            "title": "充值统计",
+            "isLink": "",
+            "isHide": false,
+            "isFull": false,
+            "isAffix": false,
+            "isKeepAlive": true
+          }
+        }
+      ]
+    },
+    {
+      "path": "/apiDocument",
+      "name": "接口文档",
+      "component": "/apiDocument",
+      "meta": {
+        "icon": "Document",
+        "title": "接口文档",
+        "isLink": "https://docs.google.com/document/d/1-oQd6AOAP3KT88gEb1iNIoG6X8BarasWlyY4r_nafkY/edit?usp=sharing",
+        "isHide": false,
+        "isFull": false,
+        "isAffix": false,
+        "isKeepAlive": true
+      }
+    }
+  ],
+  "msg": "成功"
+}
