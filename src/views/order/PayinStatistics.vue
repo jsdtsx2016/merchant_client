@@ -152,7 +152,7 @@ const columns = reactive<ColumnProps<Merchant.ResPayinOrder>[]>([
         search: { el: "input", tooltip: "产品编号" },
         render: (scope) => {
             return (
-                <div style={{ color: scope.row.zonghelvColor }}>{scope.row.productID || "全部"}</div>
+                <div>{scope.row.productID || "全部"}</div>
             );
         },
     },
@@ -170,7 +170,7 @@ const columns = reactive<ColumnProps<Merchant.ResPayinOrder>[]>([
         label: "金额",
         render: (scope) => {
             return (
-                <div style={{ color: scope.row.zonghelvColor }}>{(scope.row.amount) / 100}元</div>
+                <div>{(scope.row.amount) / 100}元</div>
             );
         },
     },

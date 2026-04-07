@@ -24,7 +24,7 @@
             <el-button v-if="showExport" plain type="primary" :icon="Document" @click="excel">
               导出
             </el-button>
-            <el-button :icon="Delete" @click="reset"> 重置 </el-button>
+            <el-button v-if="false" :icon="Delete" @click="reset"> 重置 </el-button>
             <el-button v-if="showCollapse" type="primary" link class="search-isOpen" @click="collapsed = !collapsed">
               {{ collapsed ? "展开" : "合并" }}
               <el-icon class="el-icon--right">
