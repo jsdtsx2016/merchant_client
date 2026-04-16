@@ -8,7 +8,7 @@ import { checkVersion } from "@/api/modules/system";
 import { ElMessageBox } from "element-plus";
 import { ref, onMounted } from "vue";
 
-const version = ref("1.0.4");
+const version = ref("1.0.5");
 onMounted(async () => {
   const result = await checkVersion(version.value, "merchant");
   if (result.data.reload) {
