@@ -355,6 +355,13 @@ const exportExcel = async () => {
     delete newParams.createTime;
     delete newParams.updateTime;
     const result = await exportPayinOrderList(newParams);
-    window.open(result.data.fileUrl, "_self");
+    // window.open(result.data.fileUrl, "_self");
+    const a = document.createElement('a');
+    a.href = result.data.fileUrl;
+    a.download = ''; // 让浏览器强制下载
+    a.target = '_blank';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
 };
 </script>
